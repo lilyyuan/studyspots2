@@ -31,7 +31,7 @@ function findWeather(){
 	})
   getMood();
 }
-
+/*
 function getMood() {
   $("#focus").unbind().click(function(){ 
       mood = $(this).attr( "id");
@@ -49,7 +49,7 @@ function combineMoodForecast() {
       location = "frozenyogurt";
   }
 }
-
+*/
 $( document ).ready(function() {
   findWeather();
 });
