@@ -25,7 +25,8 @@ function findWeather(){
             //lon = parsed_json['geolookup']['lon'];
             $(".degrees-text").html(weatherTemp);
             $(".weather-forecast").html(weatherName); //"<img src=" + weatherIcon + ">"
-  			}
+  			   return false;
+        }
   		});
 	})
   getMood();
