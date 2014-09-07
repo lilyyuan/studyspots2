@@ -1,4 +1,4 @@
-var zipCode = "";
+/*var zipCode = "";
 var weather = "";
 var weatherIcon = "";
 var weatherTemp = "";
@@ -31,7 +31,7 @@ function findWeather(){
 	})
   getMood();
 }
-/*
+
 function getMood() {
   $("#focus").unbind().click(function(){ 
       mood = $(this).attr( "id");
